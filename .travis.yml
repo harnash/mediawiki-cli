@@ -7,10 +7,6 @@ addons:
       # needed only if you use the snap pipe:
       - snapcraft
 
-# needed for the docker pipe
-services:
-  # - docker
-
 after_success:
   # docker login is required if you want to push docker images.
   # DOCKER_PASSWORD should be a secret in your .travis.yml configuration.
